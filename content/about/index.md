@@ -2,18 +2,19 @@
 title: 'About Me'
 avatar: './me.jpg'
 skills:
-  - JavaScript (ES6+)
-  - HTML & (S)CSS
-  - React
-  - Vue
-  - Node.js
-  - WordPress
+  - Computer Vision, Machine Learning
+  - Applied Math, Statistics
+  - Tensorflow, PyTorch
+  - Flask, SQL, Javascript
+  - Kubernetes, Docker, Serverless
+  - Python, Julia, R
+  - AWS Architectures
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA.
+Hello! I'm Bill, a software engineer based in Singapore. I lived in Chicago, Boston, and the Bay Area for 5 years before moving back to Singapore in 2019.
 
-I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+I enjoy building machine learning systems that have a real-world impact on people's lives. My goal is to build end-to-end ML platforms that engineers enjoy working on, and have positive outcomes for society.
 
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
+After graduating from the research-based master's program from [MIT's Center for Computational Engineering](http://cce.mit.edu/), I joined the data science team at [One Concern](https://www.oneconcern.com) to build large-scale computer vision and network modelling systems to estimate impacts of natural disasters. I am now working in the [Govtech Singapore](https://www.tech.gov.sg) where we are building a scalable and reliable image and video analytics platform.
 
-Here are a few technologies I've been working with recently:
+Here's what I've been up to lately:

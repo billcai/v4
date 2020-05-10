@@ -1,38 +1,34 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Bill Cai',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'I am a software engineer based in Singapore specializing in building and designing scalable, reliable, and cloud-native machine learning platforms.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Biil Cai, Bill, Cai, Computer Vision, Govtech, Government Technology Agency, Govtech Singapore, Machine Learning, Deep Learning',
+  siteUrl: 'https://billcai.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  name: 'Bill Cai',
+  location: 'Singapore',
+  email: 'me@billcai.com',
+  github: 'https://github.com/billcai',
+  twitterHandle: '@billcai7',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/billcai',
+    },
+    {
+      name: 'Google Scholar',
+      url: 'https://scholar.google.com/citations?user=0yeViVAAAAAJ&hl=en',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.linkedin.com/in/billcai77/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/billcai7',
     },
   ],
 

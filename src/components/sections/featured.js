@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+// import Img from 'gatsby-image';
+import Video from '@components/video';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { FormattedIcon } from '@components/icons';
@@ -106,7 +107,7 @@ const StyledLinkWrapper = styled.div`
     }
   }
 `;
-const StyledFeaturedImg = styled(Img)`
+const StyledFeaturedImg = styled(Video)`
   width: 100%;
   max-width: 100%;
   vertical-align: middle;
@@ -121,7 +122,7 @@ const StyledFeaturedImg = styled(Img)`
     filter: grayscale(100%) contrast(1) brightness(80%);
   `};
 `;
-const StyledImgContainer = styled.a`
+const StyledImgContainer = styled.div`
   ${mixins.boxShadow};
   grid-column: 6 / -1;
   grid-row: 1 / -1;
@@ -144,20 +145,20 @@ const StyledImgContainer = styled.a`
       filter: none;
     }
   }
-  &:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 3;
-    transition: ${theme.transition};
-    background-color: ${colors.navy};
-    mix-blend-mode: screen;
-  }
+//   &:before {
+//     content: '';
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     z-index: 3;
+//     transition: ${theme.transition};
+//     background-color: ${colors.navy};
+//     mix-blend-mode: screen;
+//   }
 `;
 const StyledProject = styled.div`
   display: grid;
@@ -222,7 +223,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, video } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -272,10 +273,9 @@ const Featured = ({ data }) => {
                 </StyledContent>
 
                 <StyledImgContainer
-                  href={external ? external : github ? github : '#'}
-                  target="_blank"
-                  rel="nofollow noopener noreferrer">
-                  <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
+                //   href={external ? external : github ? github : '#'}
+                >
+                  <StyledFeaturedImg videoTitle={title} videoSrcURL={video} alt={title} />
                 </StyledImgContainer>
               </StyledProject>
             );
