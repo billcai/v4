@@ -3,7 +3,7 @@ date: '2017-09-01'
 title: 'Graduate Researcher'
 company: 'Senseable City Lab'
 location: 'Cambridge, MA'
-range: 'Sep 2017 - Sep 2018'
+range: '2017 - 2018'
 url: 'https://us.mullenlowe.com/'
 ---
 

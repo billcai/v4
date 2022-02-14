@@ -3,7 +3,7 @@ date: '2018-09-01'
 title: 'Computer Vision Scientist'
 company: 'One Concern'
 location: 'Menlo Park, CA'
-range: 'Sep 2018 - Sep 2019'
+range: '2018 - 2019'
 url: 'https://www.oneconcern.com/'
 ---
 

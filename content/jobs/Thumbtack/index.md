@@ -3,7 +3,7 @@ date: '2017-06-01'
 title: 'Analytics Intern'
 company: 'Thumbtack'
 location: 'San Francisco, CA'
-range: 'Jun - Sep 2017'
+range: '2017 - 2017'
 url: 'https://www.thumbtack.com'
 ---
 
