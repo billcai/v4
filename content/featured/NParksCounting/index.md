@@ -1,7 +1,7 @@
 ---
 date: '5'
 title: 'Crowd Estimation at Scale'
-video: 'https://www.youtube.com/watch?v=loULm80lCWM&ab_channel=8world'
+video: 'https://www.youtube.com/embed/loULm80lCWM'
 external: 'http://safedistparks.nparks.gov.sg/'
 tech:
   - AWS
