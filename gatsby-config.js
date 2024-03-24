@@ -12,6 +12,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,

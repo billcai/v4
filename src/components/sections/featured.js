@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-// import Img from 'gatsby-image';
+import Img from 'gatsby-image';
 import Video from '@components/video';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
@@ -107,11 +107,26 @@ const StyledLinkWrapper = styled.div`
     }
   }
 `;
-const StyledFeaturedImg = styled(Video)`
+const StyledFeaturedVid = styled(Video)`
   width: 100%;
   max-width: 100%;
   vertical-align: middle;
   border-radius: ${theme.borderRadius};
+  position: relative;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%) contrast(1) brightness(90%);
+  ${media.tablet`
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+    filter: grayscale(100%) contrast(1) brightness(80%);
+  `};
+`;
+const StyledFeaturedImg = styled(Img)`
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: ${({ theme }) => theme.borderRadius};
   position: relative;
   mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1) brightness(90%);
@@ -223,7 +238,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, video } = frontmatter;
+            const { external, title, tech, github, video, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -275,7 +290,11 @@ const Featured = ({ data }) => {
                 <StyledImgContainer
                 //   href={external ? external : github ? github : '#'}
                 >
-                  <StyledFeaturedImg videoTitle={title} videoSrcURL={video} alt={title} />
+                  {cover ? (
+                    <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
+                  ) : (
+                    <StyledFeaturedVid videoTitle={title} videoSrcURL={video} alt={title} />
+                  )}
                 </StyledImgContainer>
               </StyledProject>
             );

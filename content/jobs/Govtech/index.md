@@ -1,7 +1,7 @@
 ---
 date: '2019-09-04'
 title: 'Computational Scientist'
-company: 'Govtech'
+company: 'GovTech'
 location: 'Singapore'
 range: '2019 - 2022'
 url: 'https://www.tech.gov.sg/'

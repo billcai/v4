@@ -5,4 +5,4 @@ subtitle: 'I build scalable ML.'
 buttonText: 'Get In Touch'
 ---
 
-I'm an Applied Scientist based in Singapore specialising in building and designing scalable, reliable, and cloud-native machine learning platforms. Now [@ML Solutions Lab, AWS](https://aws.amazon.com/ml-solutions-lab/), was previously [@DSAID](https://www.tech.gov.sg/capability-centre-dsaid)/[@Govtech](https://www.tech.gov.sg), [@OneConcern](https://www.oneconcern.com), [@SenseableCityLab, MIT](http://senseable.mit.edu), [@CCE, MIT](https://cce.mit.edu), [@Thumbtack](https://www.thumbtack.com), and [@UChicago](https://www.uchicago.edu)
+I'm an Applied Scientist based in Singapore specialising in building and designing scalable and high-performance AI and Machine Learning solutions and platforms. Now [@Amazon Web Services](https://aws.amazon.com/), was previously [@GovTech](https://www.tech.gov.sg), [@OneConcern](https://www.oneconcern.com), [@SenseableCityLab, MIT](http://senseable.mit.edu). I graduated from [@MIT Center for Computational Engineering](https://cce.mit.edu) and [@UChicago](https://www.uchicago.edu)
