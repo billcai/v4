@@ -2,7 +2,7 @@
 date: '8'
 title: 'GenAI for Education'
 cover: './govinsider.png'
-external: 'https://govinsider.asia/intl-en/article/harnessing-genai-and-llms-for-an-automated-evaluation-tool-to-aid-teachers'
+external: 'https://www.amazon.science/publications/low-cost-generation-and-evaluation-of-dictionary-example-sentences'
 
 tech:
   - LLMs
