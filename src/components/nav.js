@@ -6,7 +6,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { throttle } from '@utils';
 import { navLinks, navHeight } from '@config';
 import { Menu } from '@components';
-import { IconLogo } from '@components/icons';
+// import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts, loaderDelay } = theme;
@@ -41,26 +41,26 @@ const StyledNav = styled.nav`
   counter-reset: item 0;
   z-index: 12;
 `;
-const StyledLogo = styled.div`
-  ${mixins.flexCenter};
-  a {
-    display: block;
-    color: ${colors.green};
-    width: 42px;
-    height: 42px;
-    &:hover,
-    &:focus {
-      svg {
-        fill: ${colors.transGreen};
-      }
-    }
-    svg {
-      fill: none;
-      transition: ${theme.transition};
-      user-select: none;
-    }
-  }
-`;
+// const StyledLogo = styled.div`
+//   ${mixins.flexCenter};
+//   a {
+//     display: block;
+//     color: ${colors.green};
+//     width: 42px;
+//     height: 42px;
+//     &:hover,
+//     &:focus {
+//       svg {
+//         fill: ${colors.transGreen};
+//       }
+//     }
+//     svg {
+//       fill: none;
+//       transition: ${theme.transition};
+//       user-select: none;
+//     }
+//   }
+// `;
 const StyledHamburger = styled.div`
   ${mixins.flexCenter};
   overflow: visible;
@@ -243,7 +243,8 @@ class Nav extends Component {
         </Helmet>
         <StyledNav>
           <TransitionGroup component={null}>
-            {isMounted && (
+            <div />
+            {/* {isMounted && (
               <CSSTransition classNames={fadeClass} timeout={timeout}>
                 <StyledLogo tabindex="-1">
                   {isHome ? (
@@ -257,7 +258,7 @@ class Nav extends Component {
                   )}
                 </StyledLogo>
               </CSSTransition>
-            )}
+            )} */}
           </TransitionGroup>
 
           <TransitionGroup component={null}>
