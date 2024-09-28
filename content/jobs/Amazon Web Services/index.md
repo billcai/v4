@@ -1,6 +1,6 @@
 ---
 date: '2022-07-01'
-title: 'Applied Scientist'
+title: 'Senior Applied Scientist'
 company: 'Amazon Web Services'
 location: 'Singapore'
 range: '2022 - current'
